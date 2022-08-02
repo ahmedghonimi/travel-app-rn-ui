@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/Gordita-Black.ttf",
+      "sha1": "2084b72fbf01c4d8abf646e3c60066719b3e9d0b"
+    },
+    {
+      "path": "src/assets/Gordita-Bold.ttf",
+      "sha1": "089972b75be0d900479709b0d00ec4b81679cf0c"
+    },
+    {
+      "path": "src/assets/Gordita-Light.ttf",
+      "sha1": "dbd596f290faab457f4f36a2382f6c0061364015"
+    },
+    {
+      "path": "src/assets/Gordita-Medium.ttf",
+      "sha1": "abcfda22cdb1ad0f5cbff9b021ec818dbbcadebb"
+    },
+    {
+      "path": "src/assets/Gordita-Regular.ttf",
+      "sha1": "df5ad4f95d8941edbc52e0d27ecf981f7aee941b"
+    },
+    {
+      "path": "src/assets/Gordita-Thin.ttf",
+      "sha1": "c4256d7203dc4e4a1b8a2624b8e9544f6d176af2"
+    }
+  ]
+}
