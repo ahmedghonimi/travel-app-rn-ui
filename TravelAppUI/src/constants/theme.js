@@ -6,3 +6,12 @@ export const FONTS = {
   GORDITA_REGULAR: 'Gordita-Regular',
   GORDITA_THIN: 'Gordita-Thin',
 };
+
+export const COLORS = {
+  white: '#FFF',
+  orange: '#FFE3D2',
+  black: '#191D21',
+  purple: '#ECDDFF',
+  darkOrange: '#FFAC4B',
+  grey: '#ccc',
+};
