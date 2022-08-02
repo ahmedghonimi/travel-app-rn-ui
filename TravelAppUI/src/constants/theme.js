@@ -17,6 +17,7 @@ export const COLORS = {
   darkOrange: '#FFAC4B',
   grey: '#ccc',
   accentGreen: '#CFFFF6',
+  tabIconColor: '#ACB8C2',
 };
 
 export const {width, height} = Dimensions.get('screen');

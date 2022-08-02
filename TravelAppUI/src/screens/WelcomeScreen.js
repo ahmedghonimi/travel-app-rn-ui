@@ -10,7 +10,7 @@ import {
 import {COLORS, FONTS, width} from '../constants/theme';
 import WelcomeImage from '../assets/images/welcome.png';
 
-const WelcomeScreen = () => {
+const WelcomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <View style={styles.container}>
@@ -20,7 +20,11 @@ const WelcomeScreen = () => {
           We've helped millions across the nation find their perfect match...
           and you're next!
         </Text>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            navigation.navigate('Tabs');
+          }}>
           <Text style={styles.buttonText}>Let's go</Text>
         </TouchableOpacity>
       </View>
