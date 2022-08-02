@@ -1,7 +1,10 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import Onboarding from './src/components/Onboarding';
-import {FONTS} from './src/constants/theme';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import WelcomeScreen from './src/screens/WelcomeScreen';
+
+const Stack = createNativeStackNavigator();
 
 const App = () => {
   const [showOnboardingSlider, setShowOnboardingSlider] = React.useState(false);
@@ -9,17 +12,14 @@ const App = () => {
   if (!showOnboardingSlider) {
     return <Onboarding onDoneHandler={() => setShowOnboardingSlider(true)} />;
   }
+
   return (
-    <SafeAreaView style={{flex: 1}}>
-      <View style={{padding: 20}}>
-        <Text style={{fontFamily: FONTS.GORDITA_BOLD}}>
-          Welcome to my Application
-        </Text>
-      </View>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;

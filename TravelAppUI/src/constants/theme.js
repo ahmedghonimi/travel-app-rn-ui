@@ -1,3 +1,5 @@
+import {Dimensions} from 'react-native';
+
 export const FONTS = {
   GORDITA_BLACK: 'Gordita-Black',
   GORDITA_BOLD: 'Gordita-Bold',
@@ -14,4 +16,7 @@ export const COLORS = {
   purple: '#ECDDFF',
   darkOrange: '#FFAC4B',
   grey: '#ccc',
+  accentGreen: '#CFFFF6',
 };
+
+export const {width, height} = Dimensions.get('screen');

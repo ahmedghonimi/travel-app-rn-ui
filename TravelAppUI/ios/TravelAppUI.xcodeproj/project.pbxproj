@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TravelAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TravelAppUITests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TravelAppUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TravelAppUI.a */; };
+		0EA5F0CD3F634B568045B90D /* Gordita-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5559A9106A3749218987E046 /* Gordita-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */; };
+		59B3A863B44C413EA7B25F58 /* Gordita-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-TravelAppUI-TravelAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TravelAppUI-TravelAppUITests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F22C664AA9CA4C789679AC70 /* Gordita-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */; };
-		0EA5F0CD3F634B568045B90D /* Gordita-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */; };
-		59B3A863B44C413EA7B25F58 /* Gordita-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */; };
-		CADAE063A3E74977BC27D295 /* Gordita-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */; };
 		97E099CB9DD64D0095007727 /* Gordita-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627CC5B589C8446B9906ED60 /* Gordita-Regular.ttf */; };
-		5559A9106A3749218987E046 /* Gordita-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */; };
+		CADAE063A3E74977BC27D295 /* Gordita-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */; };
+		F22C664AA9CA4C789679AC70 /* Gordita-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,19 +43,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TravelAppUI/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TravelAppUI/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TravelAppUI-TravelAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelAppUI-TravelAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Medium.ttf"; path = "../src/assets/Gordita-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-TravelAppUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelAppUI.debug.xcconfig"; path = "Target Support Files/Pods-TravelAppUI/Pods-TravelAppUI.debug.xcconfig"; sourceTree = "<group>"; };
+		4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Light.ttf"; path = "../src/assets/Gordita-Light.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TravelAppUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelAppUI.release.xcconfig"; path = "Target Support Files/Pods-TravelAppUI/Pods-TravelAppUI.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TravelAppUI-TravelAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelAppUI-TravelAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelAppUI-TravelAppUITests/Pods-TravelAppUI-TravelAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TravelAppUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelAppUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627CC5B589C8446B9906ED60 /* Gordita-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Regular.ttf"; path = "../src/assets/Gordita-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TravelAppUI/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TravelAppUI-TravelAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelAppUI-TravelAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelAppUI-TravelAppUITests/Pods-TravelAppUI-TravelAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Bold.ttf"; path = "../src/assets/Gordita-Bold.ttf"; sourceTree = "<group>"; };
+		DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Black.ttf"; path = "../src/assets/Gordita-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */ = {isa = PBXFileReference; name = "Gordita-Black.ttf"; path = "../src/assets/Gordita-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */ = {isa = PBXFileReference; name = "Gordita-Bold.ttf"; path = "../src/assets/Gordita-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */ = {isa = PBXFileReference; name = "Gordita-Light.ttf"; path = "../src/assets/Gordita-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */ = {isa = PBXFileReference; name = "Gordita-Medium.ttf"; path = "../src/assets/Gordita-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		627CC5B589C8446B9906ED60 /* Gordita-Regular.ttf */ = {isa = PBXFileReference; name = "Gordita-Regular.ttf"; path = "../src/assets/Gordita-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */ = {isa = PBXFileReference; name = "Gordita-Thin.ttf"; path = "../src/assets/Gordita-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Thin.ttf"; path = "../src/assets/Gordita-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		75EE399AC9154702AC1DC9B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */,
+				B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */,
+				4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */,
+				358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */,
+				627CC5B589C8446B9906ED60 /* Gordita-Regular.ttf */,
+				F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,20 +174,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		75EE399AC9154702AC1DC9B7 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				DD18A4E3624A44B2AB6E3F3E /* Gordita-Black.ttf */,
-				B4B9DCD52881498BBB4F2578 /* Gordita-Bold.ttf */,
-				4E158FB970BD4B95BDF479F6 /* Gordita-Light.ttf */,
-				358A91BC9ECF43D1AB37F2D9 /* Gordita-Medium.ttf */,
-				627CC5B589C8446B9906ED60 /* Gordita-Regular.ttf */,
-				F4FC133AABB849CE99CE6C02 /* Gordita-Thin.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
